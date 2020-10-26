@@ -1,0 +1,24 @@
+title: Django for Highload
+email: anton-highload@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Blog about Django python web framework on highload.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: jekyllrb
+github_username:  anton-highload
+
+# Build settings
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "my_default"

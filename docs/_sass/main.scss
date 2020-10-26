@@ -1,0 +1,24 @@
+.current {
+  color: green;
+}
+
+#avatar {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  align-items: flex-end;
+}
+
+#author a {
+  color: white;
+  text-decoration: underline;
+}
+
+.project-tagline {
+  font-size: 1.25rem;
+  margin-bottom: 0;
+}
+
+.page-header {
+  padding: 2rem 4rem;
+}
