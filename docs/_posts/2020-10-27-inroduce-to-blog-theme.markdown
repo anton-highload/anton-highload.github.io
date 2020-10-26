@@ -37,4 +37,4 @@ So, in the first place we go thought base *Pain points* from this book:
 	* And last but not least - Python) as I said before it has two big (or narrow?) bottlenecks: a lot of imports and memory leaks.
 
 
-So we have our RoadMap anв see you soon;)
+So we have our RoadMap and see you soon;)
