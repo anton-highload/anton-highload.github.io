@@ -2,6 +2,7 @@
 title:  "Introduction To The Blog Theme"
 date:   2020-10-25 21:49:17 +0300
 categories: jekyll update
+comments: true
 ---
 Despite the name, the theme of this blog not limitate only to Django optimization. I want to tell you about different types of speed up Django or Python applications, that include:
 * Working with database and cache

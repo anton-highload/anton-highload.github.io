@@ -16,10 +16,10 @@ layout: my_default
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
-  {% include comments.html %}
-<!--  {%- if site.disqus.shortname -%}-->
-<!--    {%- include disqus_comments.html -%}-->
-<!--  {%- endif -%}-->
+
+  {%- if page.comments -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
